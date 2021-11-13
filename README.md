@@ -75,3 +75,21 @@ Requires: Python >=3.6
 [XGBoost for Regression by Jason Brownlee on March 12, 2021](https://machinelearningmastery.com/xgboost-for-regression/)
 
 [Udemy Course by M. Vahit Keskin](https://www.udemy.com/course/python-egitimi/) 
+
+-------
+## Example
+- Dataset: Hitters.csv
+ - Preprocessing: 
+   - Cleaning - missing data
+   - Normalization - One hot encoding
+ - Evaluation Metric: RMSE
+ - Hiperparameter Optimization: GridSearchCV
+
+## Dataset: Hitters
+Context
+
+This dataset is part of the R-package ISLR and is used in the related book by G. James et al. (2013) "An Introduction to Statistical Learning with applications in R" to demonstrate how Ridge regression and the LASSO are performed using R.
+
+Content
+
+This dataset was originally taken from the StatLib library which is maintained at Carnegie Mellon University. This is part of the data that was used in the 1988 ASA Graphics Section Poster Session. The salary data were originally from Sports Illustrated, April 20, 1987. The 1986 and career statistics were obtained from The 1987 Baseball Encyclopedia Update published by Collier Books, Macmillan Publishing Company, New York.
